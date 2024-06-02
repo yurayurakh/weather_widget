@@ -1,0 +1,46 @@
+.day {
+    display: grid;
+    grid-template-columns: 40px 85px 85px 45px;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+
+    &__title {
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+
+    &__img {
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__weather {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    &__tempareture {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: right;
+    }
+
+    &__part {
+        font-size: 9px;
+        font-weight: 300;
+    }
+
+    &__value {
+        margin: 3px 0;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
